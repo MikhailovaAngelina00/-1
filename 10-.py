@@ -1,0 +1,26 @@
+red = '\u001b[41m'
+white='\u001b[47m'
+blue = '\u001b[44m'
+reset = '\u001b[0m'
+pixel = ' '
+height = 9
+print(red + pixel * 40 + reset)
+for i in range(height):
+    if i < 3:
+      print(red + pixel * 16 + white + pixel * 8 + red + pixel * 16 + reset)
+    elif i <6:
+      print(red + pixel * 7 + white + pixel * 26 + red + pixel * 7 + reset)
+    else:
+      print(red + pixel * 16 + white + pixel * 8 + red + pixel * 16 + reset)
+print(red + pixel * 40 + reset)
+
+
+
+
+
+
+
+
+
+
+
